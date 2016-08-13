@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	background: #298eea;
+}
+
+
+
+
+.logo {
+	height: 35px;
+	margin: 0 auto 35px;
+}
+
+.signup-form {
+	background: white;
+	margin: 0 auto;
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
