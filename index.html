@@ -7,26 +7,28 @@
 	</head>
 
 	<body>
- 		<img class="logo" src="images/logo.png" alt="AnalogSea logo" />
+		<section class="container">
+	 		<img class="logo" src="images/logo.png" alt="AnalogSea logo" />
 
 
- 		<form class="signup-form" action="/signup" accept-charset="UTF-8" method="post">
+	 		<form class="signup-form" action="/signup" accept-charset="UTF-8" method="post">
 
-    	<legend>Sign up</legend>
+	    	<legend>Sign up</legend>
 
-    	<label for="user-email">Email Address</label>
-    	<input type="email" placeholder="name@email.com" name="user-email" id="user_email" required/>
+	    	<label for="user-email">Email Address</label>
+	    	<input type="email" placeholder="name@email.com" name="user-email" id="user-email" required/>
 
-    	<label for="user-password">Password</label>
-    	<input placeholder="***********" label="false" type="password" name="user-password" id="user-password" required/>
+	    	<label for="user-password">Password</label>
+	    	<input placeholder="***********" label="false" type="password" name="user-password" id="user-password" required/>
 
-    <button type="submit"/>Sign up!</button>
+	    	<button type="submit"/>Sign up!</button>
 
-    <p><a href="/forgot_password/new">Forgot password?</a></p>
-  </form>
+	    	<p class="forgot"><a class="forgot" href="/forgot_password/new">Forgot password?</a></p>
+	  		</form>
 
-  <div class='footer'>
-    <p>Already signed up? <a href="/login">Log in here</a></p>
-  </div>
+	  		<div class='footer'>
+	    		<p>Already signed up? <a class="footer" href="/login">Log in here</a></p>
+	  		</div>
+	  	</section>
 </body>
 </html>

@@ -5,20 +5,82 @@
 body {
 	margin: 0;
 	background: #298eea;
+	font-family: sans-serif;
 }
 
-
-
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .logo {
 	height: 35px;
-	margin: 0 auto 35px;
+	margin: 0 auto;
+	margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .signup-form {
 	background: white;
 	margin: 0 auto;
-	width: 400px;
+	width: 320px;
+	max-width: 400px;
 	padding-left: 40px;
 	padding-right: 40px;
+	margin-bottom: 1em;
+}
+
+legend {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+label {
+    line-height: 3em;
+    display: block;
+}
+
+input#user-email {
+    width: inherit;
+    padding: 15px;
+    border: 2px transparent black;
+}
+
+input#user-password{
+	width: inherit;
+    padding: 15px;
+    border: 2px transparent black;
+}
+
+button {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: inherit;
+    border: 2px transparent;
+    font-size: 20px;
+    padding: 15px;
+    height: 55px;
+    color: white;
+    background-color: #15CD72;
+}
+
+.forgot {
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    padding-bottom: 2em;
+    font-size: small;
+}
+
+a.forgot:hover {
+	text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
